@@ -295,7 +295,7 @@
 # print(fruits) # Indentation is Important
 
 ## Highest Score
-student_scores = [1,2,3,4,5,6,7,8,9,10]
+# student_scores = [1,2,3,4,5,6,7,8,9,10]
 
 ## Summation "sum"
 # total_sum = sum(student_scores) # Automatic
@@ -340,3 +340,34 @@ student_scores = [1,2,3,4,5,6,7,8,9,10]
 #     else:
 #         print(num)
 
+
+### Day 6 ###
+
+#- FUNCTIONS #
+# Print("Hello"), len("Hello") etc are all functions
+
+# def my_function(): # Function Definition
+#     print("Hello")
+#     print("Bye")
+
+# my_function() # Function Call
+
+#- INDENTATION #
+# Four spaces over tabs.
+
+#- WHILE LOOP #
+# While something is true the loop continuous.
+
+### Day 7 ###
+
+#- METHODS, FUNCTIONS AND MODULES # 
+# import random
+# x = random.randint(1, 8) # Let me use the randint() function from the random module.
+
+# x = ‘test’
+# print(x.upper()) # Method
+
+### Day 7f ###
+
+#-  Hangman #
+# 7_handman.py
