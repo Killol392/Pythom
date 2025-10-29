@@ -369,5 +369,73 @@
 
 ### Day 7f ###
 
-#-  Hangman #
+#-  Hangman #   
 # 7_handman.py
+
+### Day 8 ###
+
+# Function Revision
+# import datetime
+# def greet():
+#     print("\nHello World!")
+#     print("Good Morning the time is --> ",datetime.datetime.now().strftime("%H : %M : %S"))
+#     print("Have a Good",datetime.datetime.today().strftime("%A"),"\n")
+
+# greet()
+
+#- FUNCTIONS WITH INPUT #
+# def greet(name):
+#     print(f"\nHello {name}!")
+#     print("Good Morning the time is --> ",datetime.datetime.now().strftime("%H : %M : %S"))
+#     print("Have a Good",datetime.datetime.today().strftime("%A"),"\n")
+
+# name=input("What is your name?\n- ")
+# greet(name)
+
+# # PARAMETER AND ARGUMENT
+# name   = "Killol" 
+
+# # Coding Exercise
+# def life_in_weeks(life_expectency):
+#     weeks=(90-life_expectency)*52
+#     print(f"You have {weeks} weeks left.")
+
+# age = int(input("What is your current age?\n-"))
+# life_in_weeks(age)
+
+#- FUNCTIONS WITH INPUTS #
+
+#- POSITIONAL ARGUMENTS #
+# def greet(name,location):
+#     print(f"\nHello {name}!")
+#     print(f"When did you return from {location}?")
+
+# name=input("\nWhat is your name?\n- ")
+# location=input("Where did you go?\n- ")
+# greet(name,location)
+
+#- KEYWORD ARGUMENTS #
+# def greet(name,location):
+#     print(f"\nHello {name}!")
+#     print(f"When did you return from {location}?")
+
+# location=input("\nWhat is your name?\n- ")
+# name=input("Where did you go?\n- ")
+# greet(name=location,location=name)
+
+# Coding Exercise
+# def calculate_love_score(name1,name2):
+#     name = name1.lower() + name2.lower()
+#     t=name.count("t")
+#     r=name.count("r")
+#     u=name.count("u")
+#     e=name.count("e")
+#     l=name.count("l")
+#     o=name.count("o")
+#     v=name.count("v")
+#     ee=name.count("e")
+#     true=t+r+u+e
+#     love=l+o+v+ee
+#     print(f"{true}"+f"{love}")
+
+# calculate_love_score("Kanye West", "Kim Kardashian")
